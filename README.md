@@ -71,4 +71,3 @@ Para acessar ao servidor, abra a aplicação dentro do elastic, e veja que ele f
 <img src='./img/fig009.png' />
 
 Para testar, eu vou abrir essa url e vou atulizar a mensagem de hello world. Assim que cair no meu repositório a pipeline ativará.
-
