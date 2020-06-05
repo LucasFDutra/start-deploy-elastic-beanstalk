@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const routes = express.Router();
 routes.get('/', (req, res) => {
-    res.send('hello my world');
+    return res.send('hello world');
 });
 
 app.use(routes);
