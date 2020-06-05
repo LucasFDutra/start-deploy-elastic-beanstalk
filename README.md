@@ -62,3 +62,13 @@ Para encontrar os nomes você pode ir no menu `elastic beanstalk` e veja as suas
 <img src='./img/fig008.png' />
 
 Após preencher as informações, clique em next, e confirme a criação da pipeline.
+
+A pipeline irá fazer a sincronização com o repositório, isso pode demorar um pouquinho, mas nas proximas vezes fica mais rápido, claro, levando em consideração a dimensão dos arquivos modificados.
+
+# Demonstrando o funcionamento
+Para acessar ao servidor, abra a aplicação dentro do elastic, e veja que ele fornece uma url. Essa é a url que chama a aplicação
+
+<img src='./img/fig009.png' />
+
+Para testar, eu vou abrir essa url e vou atulizar a mensagem de hello world. Assim que cair no meu repositório a pipeline ativará.
+
